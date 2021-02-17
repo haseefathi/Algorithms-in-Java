@@ -35,6 +35,10 @@
     <option name="sortByType" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../algs4.jar!/" />
@@ -57,6 +61,7 @@
     <configuration name="PercolationStats" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="PercolationStats" />
       <module name="Percolation" />
+      <option name="PROGRAM_PARAMETERS" value="100 100" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -89,22 +94,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="289" y="20" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1613493034290" />
-    <state width="1281" height="251" key="GridCell.Tab.0.bottom" timestamp="1613578768925">
+    <state width="1281" height="251" key="GridCell.Tab.0.bottom" timestamp="1613579679556">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1281" height="251" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1613578768925" />
-    <state width="1281" height="251" key="GridCell.Tab.0.center" timestamp="1613578768924">
+    <state width="1281" height="251" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1613579679556" />
+    <state width="1281" height="251" key="GridCell.Tab.0.center" timestamp="1613579679555">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1281" height="251" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1613578768924" />
-    <state width="1281" height="251" key="GridCell.Tab.0.left" timestamp="1613578768924">
+    <state width="1281" height="251" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1613579679555" />
+    <state width="1281" height="251" key="GridCell.Tab.0.left" timestamp="1613579679555">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1281" height="251" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1613578768924" />
-    <state width="1281" height="251" key="GridCell.Tab.0.right" timestamp="1613578768925">
+    <state width="1281" height="251" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1613579679555" />
+    <state width="1281" height="251" key="GridCell.Tab.0.right" timestamp="1613579679555">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1281" height="251" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1613578768925" />
+    <state width="1281" height="251" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1613579679555" />
     <state width="1281" height="199" key="GridCell.Tab.1.bottom" timestamp="1613576608373">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -125,6 +130,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="0" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1613562759738" />
+    <state x="285" y="212" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1613581778774">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="285" y="212" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1280.680@0.0.1280.680" timestamp="1613581778774" />
     <state x="219" y="0" width="840" height="678" key="search.everywhere.popup" timestamp="1613562741585">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

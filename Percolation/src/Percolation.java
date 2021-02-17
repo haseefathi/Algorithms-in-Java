@@ -2,31 +2,32 @@ import edu.princeton.cs.algs4.WeightedQuickUnionUF;
 
 public class Percolation {
 
-    private int N;
+    private final int n;
     private WeightedQuickUnionUF grid;
-    private boolean[] openArray; //holds true value if the site is open..otherwise false
-    private int topIdx, bottomIdx;
+    private boolean[] openArray; // holds true value if the site is open..otherwise false
+    private final int topIdx;
+    private final int bottomIdx;
     private int numOfOpenSites;
 
     // creates n-by-n grid, with all sites initially blocked
-    public Percolation(int n) {
-        if (n <= 0) {
+    public Percolation(int num) {
+        if (num <= 0) {
             throw new IllegalArgumentException("N must be greater than 0");
         } else {
-            N = n;
+            n = num;
 
-            grid = new WeightedQuickUnionUF((N * N) + 2); //two extra for top and bottom virtual sites
+            grid = new WeightedQuickUnionUF((n * n) + 2); // two extra for top and bottom virtual sites
 
             // initially blocking all the grid sites
-            openArray = new boolean[N * N];
-            for (int i = 0; i < N * N; i++) {
+            openArray = new boolean[n * n];
+            for (int i = 0; i < n * n; i++) {
                 openArray[i] = false;
             }
             numOfOpenSites = 0;
 
             // top and bottom are assigned to the last two elements of the grid array
-            topIdx = N * N;
-            bottomIdx = N * N + 1;
+            topIdx = n * n;
+            bottomIdx = n * n + 1;
 
         }
 
@@ -83,10 +84,10 @@ public class Percolation {
         }
 
         if (row == 1) {
-            //top row...so join with topIdx
+            // top row...so join with topIdx
             grid.union(gridIdx, topIdx);
-        } else if (row == N) {
-            //bottom row...so join with bottomIdx
+        } else if (row == n) {
+            // bottom row...so join with bottomIdx
             grid.union(gridIdx, bottomIdx);
         }
 
@@ -108,15 +109,15 @@ public class Percolation {
     private int getGridIndex(int row, int col) {
         int i = row - 1;
         int j = col - 1;
-        return (N * i) + j;
+        return (n * i) + j;
     }
 
-    //checks if the given value of row and column is in range
+    // checks if the given value of row and column is in range
     private boolean isInRange(int row, int col) {
-        return !(row < 1 || row > N || col < 1 || col > N);
+        return !(row < 1 || row > n || col < 1 || col > n);
     }
 
-    //throws exception if row and col not in range
+    // throws exception if row and col not in range
     private void checkForException(int row, int col) {
         if (!isInRange(row, col)) {
             throw new IllegalArgumentException("The row and column are not within the range!");
