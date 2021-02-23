@@ -43,7 +43,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.Permutation">
+  <component name="RunManager" selected="Application.RandomizedQueue">
     <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -81,22 +81,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="289" y="20" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1614073370768" />
-    <state width="1281" height="240" key="GridCell.Tab.0.bottom" timestamp="1614096330497">
+    <state width="1281" height="240" key="GridCell.Tab.0.bottom" timestamp="1614097399825">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1281" height="240" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1614096330497" />
-    <state width="1281" height="240" key="GridCell.Tab.0.center" timestamp="1614096330496">
+    <state width="1281" height="240" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1614097399825" />
+    <state width="1281" height="240" key="GridCell.Tab.0.center" timestamp="1614097399825">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1281" height="240" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1614096330496" />
-    <state width="1281" height="240" key="GridCell.Tab.0.left" timestamp="1614096330496">
+    <state width="1281" height="240" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1614097399825" />
+    <state width="1281" height="240" key="GridCell.Tab.0.left" timestamp="1614097399825">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1281" height="240" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1614096330496" />
-    <state width="1281" height="240" key="GridCell.Tab.0.right" timestamp="1614096330497">
+    <state width="1281" height="240" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1614097399825" />
+    <state width="1281" height="240" key="GridCell.Tab.0.right" timestamp="1614097399825">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1281" height="240" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1614096330497" />
+    <state width="1281" height="240" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1614097399825" />
     <state x="0" y="0" key="SettingsEditor" timestamp="1614073374729">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

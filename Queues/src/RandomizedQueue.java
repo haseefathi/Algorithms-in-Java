@@ -4,13 +4,11 @@ import java.util.Iterator;
 
 public class RandomizedQueue<Item> implements Iterable<Item> {
 
-    private Item[] array;
+    private Item[] array = (Item[]) new Object[1];
     private int size = 0; // number of items
 
     // construct an empty randomized queue
     public RandomizedQueue() {
-        array = (Item[]) new Object[1];
-        System.out.println("Object created");
     }
 
     // is the randomized queue empty?
@@ -107,24 +105,7 @@ public class RandomizedQueue<Item> implements Iterable<Item> {
     }
 
     public static void main(String[] args) {
-        RandomizedQueue<Integer> q = new RandomizedQueue<Integer>();
-        System.out.println(q.size());
-        q.enqueue(2);
-        q.enqueue(3);
-        q.enqueue(4);
-        q.enqueue(5);
-        q.enqueue(11);
-        q.enqueue(12);
-        q.enqueue(13);
-        q.enqueue(14);
-        System.out.println(q.size());
-        System.out.println(q.dequeue());
-        System.out.println(q.size());
-        System.out.println(q.sample());
-        System.out.println("Printing all items:");
-        for (int item : q) {
-            System.out.println(item);
-        }
+
 
     }
 
