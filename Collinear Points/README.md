@@ -27,7 +27,7 @@ Remarkably, it is possible to solve the problem much faster than the brute-force
 Applying this method for each of the n points in turn yields an efficient algorithm to the problem. The algorithm solves the problem because points that have equal slopes with respect to p are collinear, and sorting brings such points together. The algorithm is fast because the bottleneck operation is sorting.
 
 <p align="center">
-<img src="https://github.com/haseefathi/Algorithms-in-Java/blob/main/Collinear%20Points/images/collinear-points-2.png"  width="500" height="200" />
+<img src="https://github.com/haseefathi/Algorithms-in-Java/blob/main/Collinear%20Points/images/collinear-points-2.png"  width="150" height="400" />
 </p>
 
 ### Performance
